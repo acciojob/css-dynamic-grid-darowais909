@@ -2,10 +2,11 @@
 	display:grid;
 	grid-template-columns:repeat(9,1fr);
 	gap:10px;
-}
-.grid-item{
 	display:flex;
 	justify-content:center;
+}
+.grid-item{
+	
 	background-color:lightgray;
 	width:200px;
 	height:150px;
