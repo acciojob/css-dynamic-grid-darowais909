@@ -5,6 +5,7 @@
 }
 .grid-item{
 	display:flex;
+	justify-content:center;
 	background-color:lightgray;
 	width:200px;
 	height:150px;
