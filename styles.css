@@ -1,14 +1,14 @@
+.grid-container{
+	display:grid;
+	grid-template-columns:repeat(9,1fr);
+	gap:10px;
+}
 .grid-item{
 	display:flex;
+	justify-content:center;
 	background-color:lightgray;
 	width:200px;
 	height:150px;
 	border-radius:5px;
 	font-size:40px;
-}
-.grid-container{
-	display:grid;
-	grid-template-columns:repeat(9,1fr);
-	gap:10px;
-	justify-content:center;
 }
